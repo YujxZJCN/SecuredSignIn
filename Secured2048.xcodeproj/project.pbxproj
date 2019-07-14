@@ -3,19 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		566F6AB622D99FEE002A8D66 /* AuxiliaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F6AB422D99FEE002A8D66 /* AuxiliaryModels.swift */; };
+		566F6AB722D99FEE002A8D66 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F6AB522D99FEE002A8D66 /* GameModel.swift */; };
+		566F6ABC22D9A037002A8D66 /* AccessoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F6AB922D9A037002A8D66 /* AccessoryViews.swift */; };
+		566F6ABD22D9A037002A8D66 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F6ABA22D9A037002A8D66 /* TileView.swift */; };
+		566F6ABE22D9A037002A8D66 /* GameboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F6ABB22D9A037002A8D66 /* GameboardView.swift */; };
+		566F6AC222D9A05A002A8D66 /* NumberTileGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F6AC022D9A05A002A8D66 /* NumberTileGame.swift */; };
+		566F6AC322D9A05A002A8D66 /* AppearanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F6AC122D9A05A002A8D66 /* AppearanceProvider.swift */; };
 		56B46C2722D991D70016B71F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B46C2622D991D70016B71F /* AppDelegate.swift */; };
 		56B46C2922D991D70016B71F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B46C2822D991D70016B71F /* ViewController.swift */; };
 		56B46C2C22D991D70016B71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B46C2A22D991D70016B71F /* Main.storyboard */; };
 		56B46C2F22D991D70016B71F /* Secured2048.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56B46C2D22D991D70016B71F /* Secured2048.xcdatamodeld */; };
 		56B46C3122D991D80016B71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B46C3022D991D80016B71F /* Assets.xcassets */; };
 		56B46C3422D991D80016B71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B46C3222D991D80016B71F /* LaunchScreen.storyboard */; };
+		9496A95D312DCA6F7565726D /* Pods_Secured2048.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81F93D0A60308ED26E125F4 /* Pods_Secured2048.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00A46D1E9B8915FCCAB547EB /* Pods-Secured2048.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Secured2048.debug.xcconfig"; path = "Target Support Files/Pods-Secured2048/Pods-Secured2048.debug.xcconfig"; sourceTree = "<group>"; };
+		426B724025EB2BDACE8E49F3 /* Pods-Secured2048.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Secured2048.release.xcconfig"; path = "Target Support Files/Pods-Secured2048/Pods-Secured2048.release.xcconfig"; sourceTree = "<group>"; };
+		566F6AB422D99FEE002A8D66 /* AuxiliaryModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuxiliaryModels.swift; sourceTree = "<group>"; };
+		566F6AB522D99FEE002A8D66 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		566F6AB922D9A037002A8D66 /* AccessoryViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryViews.swift; sourceTree = "<group>"; };
+		566F6ABA22D9A037002A8D66 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		566F6ABB22D9A037002A8D66 /* GameboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameboardView.swift; sourceTree = "<group>"; };
+		566F6AC022D9A05A002A8D66 /* NumberTileGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberTileGame.swift; sourceTree = "<group>"; };
+		566F6AC122D9A05A002A8D66 /* AppearanceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceProvider.swift; sourceTree = "<group>"; };
 		56B46C2322D991D70016B71F /* Secured2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secured2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B46C2622D991D70016B71F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56B46C2822D991D70016B71F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +41,7 @@
 		56B46C3022D991D80016B71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56B46C3322D991D80016B71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56B46C3522D991D80016B71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81F93D0A60308ED26E125F4 /* Pods_Secured2048.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Secured2048.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9496A95D312DCA6F7565726D /* Pods_Secured2048.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		566F6AB822D9A00F002A8D66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				566F6AC022D9A05A002A8D66 /* NumberTileGame.swift */,
+				566F6AB422D99FEE002A8D66 /* AuxiliaryModels.swift */,
+				566F6AB522D99FEE002A8D66 /* GameModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		566F6ABF22D9A03C002A8D66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				566F6AC122D9A05A002A8D66 /* AppearanceProvider.swift */,
+				566F6AB922D9A037002A8D66 /* AccessoryViews.swift */,
+				566F6ABB22D9A037002A8D66 /* GameboardView.swift */,
+				566F6ABA22D9A037002A8D66 /* TileView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		56B46C1A22D991D70016B71F = {
 			isa = PBXGroup;
 			children = (
 				56B46C2522D991D70016B71F /* Secured2048 */,
 				56B46C2422D991D70016B71F /* Products */,
+				E6AED84F6792CDD1324D89FE /* Pods */,
+				C306BAD94FC3DF827C52A856 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +100,8 @@
 			children = (
 				56B46C2622D991D70016B71F /* AppDelegate.swift */,
 				56B46C2822D991D70016B71F /* ViewController.swift */,
+				566F6ABF22D9A03C002A8D66 /* Views */,
+				566F6AB822D9A00F002A8D66 /* Models */,
 				56B46C2A22D991D70016B71F /* Main.storyboard */,
 				56B46C3022D991D80016B71F /* Assets.xcassets */,
 				56B46C3222D991D80016B71F /* LaunchScreen.storyboard */,
@@ -67,6 +111,23 @@
 			path = Secured2048;
 			sourceTree = "<group>";
 		};
+		C306BAD94FC3DF827C52A856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A81F93D0A60308ED26E125F4 /* Pods_Secured2048.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6AED84F6792CDD1324D89FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00A46D1E9B8915FCCAB547EB /* Pods-Secured2048.debug.xcconfig */,
+				426B724025EB2BDACE8E49F3 /* Pods-Secured2048.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56B46C3822D991D80016B71F /* Build configuration list for PBXNativeTarget "Secured2048" */;
 			buildPhases = (
+				13E33FCBF7EC8FE0AF817EDE /* [CP] Check Pods Manifest.lock */,
 				56B46C1F22D991D70016B71F /* Sources */,
 				56B46C2022D991D70016B71F /* Frameworks */,
 				56B46C2122D991D70016B71F /* Resources */,
+				BB788BAC6986DA52592B71C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +196,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13E33FCBF7EC8FE0AF817EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Secured2048-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB788BAC6986DA52592B71C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Secured2048/Pods-Secured2048-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Secured2048/Pods-Secured2048-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Secured2048/Pods-Secured2048-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56B46C1F22D991D70016B71F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566F6AB722D99FEE002A8D66 /* GameModel.swift in Sources */,
+				566F6ABD22D9A037002A8D66 /* TileView.swift in Sources */,
+				566F6ABC22D9A037002A8D66 /* AccessoryViews.swift in Sources */,
+				566F6ABE22D9A037002A8D66 /* GameboardView.swift in Sources */,
+				566F6AB622D99FEE002A8D66 /* AuxiliaryModels.swift in Sources */,
 				56B46C2922D991D70016B71F /* ViewController.swift in Sources */,
+				566F6AC322D9A05A002A8D66 /* AppearanceProvider.swift in Sources */,
+				566F6AC222D9A05A002A8D66 /* NumberTileGame.swift in Sources */,
 				56B46C2F22D991D70016B71F /* Secured2048.xcdatamodeld in Sources */,
 				56B46C2722D991D70016B71F /* AppDelegate.swift in Sources */,
 			);
@@ -284,11 +396,13 @@
 		};
 		56B46C3922D991D80016B71F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A46D1E9B8915FCCAB547EB /* Pods-Secured2048.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YTK46QBW5;
 				INFOPLIST_FILE = Secured2048/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +416,13 @@
 		};
 		56B46C3A22D991D80016B71F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426B724025EB2BDACE8E49F3 /* Pods-Secured2048.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YTK46QBW5;
 				INFOPLIST_FILE = Secured2048/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
