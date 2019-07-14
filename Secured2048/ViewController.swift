@@ -64,6 +64,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func SignIn(_ sender: UIButton) {
         nameLabel.text = nameTextField.text
         formerEmailLabel.text = emailTextField.text
+
+        let key = "1234567812345678123456781234567812345678123456781234567812345678"
+        let iv = ""
+        
+        let text = emailTextField.text ?? "VLMX@VLMX.com"
+        var encryptText: String?
+        var decrptText: String?
+        encryptText = text.tripleDESEncryptOrDecrypt(op: CCOperation(kCCEncrypt), key: key, iv: iv)
+        decrptText = encryptText!.tripleDESEncryptOrDecrypt(op: CCOptions(kCCDecrypt), key: key, iv: iv)
+        print("加密内容："+(encryptText ?? "加密失败")+"\n解密内容："+(decrptText ?? "解密失败"))
+        
+        hiddenEmail = encryptText!
         blurEffectView.frame = view.bounds
         self.view.addSubview(blurEffectView)
         self.view.bringSubviewToFront(signInView)
@@ -127,16 +139,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var nameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let key = "这里写入秘钥"
-        let iv = "这里写入初始化向量(可以为nil)"
-        
-        let text = "apple@apple.com"
-        var encryptText:String?
-        var decrptText:String?
-        encryptText = text.tripleDESEncryptOrDecrypt(op: CCOperation(kCCEncrypt), key: key, iv: iv)
-        decrptText = encryptText?.tripleDESEncryptOrDecrypt(op: CCOptions(kCCDecrypt), key: key, iv: iv)
-        print("加密内容："+(encryptText ?? "加密失败")+"\n解密内容："+(decrptText ?? "解密失败"))
         
         // Do any additional setup after loading the view, typically from a nib.
         nameTextField.delegate = self
@@ -320,7 +322,7 @@ extension String {
      - returns      : 返回加密或解密的参数
      */
     
-    func tripleDESEncryptOrDecrypt(op: CCOperation,key: String,iv: String) -> String? {
+    func tripleDESEncryptOrDecrypt(op: CCOperation, key: String, iv: String) -> String? {
         
         // Key
         let keyData: NSData = key.data(using: String.Encoding.utf8, allowLossyConversion: true)! as NSData

@@ -33,7 +33,6 @@
 		566F6ABB22D9A037002A8D66 /* GameboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameboardView.swift; sourceTree = "<group>"; };
 		566F6AC022D9A05A002A8D66 /* NumberTileGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberTileGame.swift; sourceTree = "<group>"; };
 		566F6AC122D9A05A002A8D66 /* AppearanceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceProvider.swift; sourceTree = "<group>"; };
-		56725E0B22DAC89A0019CA48 /* Secured2048.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Secured2048.entitlements; sourceTree = "<group>"; };
 		56B46C2322D991D70016B71F /* Secured2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secured2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B46C2622D991D70016B71F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56B46C2822D991D70016B71F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +98,6 @@
 		56B46C2522D991D70016B71F /* Secured2048 */ = {
 			isa = PBXGroup;
 			children = (
-				56725E0B22DAC89A0019CA48 /* Secured2048.entitlements */,
 				56B46C2622D991D70016B71F /* AppDelegate.swift */,
 				56B46C2822D991D70016B71F /* ViewController.swift */,
 				566F6ABF22D9A03C002A8D66 /* Views */,
