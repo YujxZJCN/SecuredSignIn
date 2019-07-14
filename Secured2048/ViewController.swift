@@ -65,7 +65,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         nameLabel.text = nameTextField.text
         formerEmailLabel.text = emailTextField.text
 
-        let key = "1234567812345678123456781234567812345678123456781234567812345678"
         let iv = ""
         
         let text = emailTextField.text ?? "VLMX@VLMX.com"
